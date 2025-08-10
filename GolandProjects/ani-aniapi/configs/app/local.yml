@@ -1,0 +1,6 @@
+env: "local"
+rest:
+  port: 8080
+  timeout: 30s
+services:
+  content_service_address: "ani-content.pinf-prod.k8s.pujak.ru:80"

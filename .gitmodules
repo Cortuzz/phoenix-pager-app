@@ -1,0 +1,6 @@
+[submodule "GolandProjects/ani-aniapi/ani-proto"]
+	path = GolandProjects/ani-aniapi/ani-proto
+	url = https://gitlab.pujak.ru/pujak/anipj/ani-proto
+[submodule "GolandProjects/ani-aniapi/external/ani-proto"]
+	path = GolandProjects/ani-aniapi/external/ani-proto
+	url = https://gitlab.pujak.ru/pujak/anipj/ani-proto

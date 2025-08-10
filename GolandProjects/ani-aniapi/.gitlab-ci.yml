@@ -1,0 +1,22 @@
+---
+include:
+  - project: 'pujak/infrastructure/gitlab-ci'
+    ref: master
+    file:
+      - 'jobs/build.yml'
+      - 'jobs/deploy.yml'
+
+
+stages:
+  - build
+  - deploy
+
+
+variables:
+  HELM_PATH: ./deploy
+
+
+build-image:
+  variables:
+    DOCKERFILE_PATH: ./build/Dockerfile
+    DOCKERFILE_CONTEXT: .
